@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        p{
+            background-color: khaki;
+        }
+
+        /*后代选择器
+        */
+        /*body元素的后面都变了*/
+        body p{
+            color: yellow;
+        }
+        /*子选择器
+        只有body后第一代有
+       */
+        /*body元素的后面都变了*/
+        body>p{
+            background-color: darkblue;
+        }
+
+        /*通用选择器 当前选中元素的向下的所有兄弟元素*/
+        .active+p{
+            background-color: antiquewhite;
+        }
+        .active~p{
+            background-color: darkslateblue;
+        }
+
+
+    </style>
+</head>
+<body>
+<p>p0</p>
+<p class="active">p1</p>
+<p>p2</p>
+<p>p3</p>
+<ul>
+    <li>
+        <p>p4</p>
+    </li>
+    <li>
+        <p>p5</p>
+    </li>
+    <li>
+        <p>p6</p>
+    </li>
+</ul>
+
+</body>
+</html>
