@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+        /*默认的颜色*/
+        a{
+            text-decoration: none;
+            color: #000000;
+        }
+
+        /*鼠标悬浮的颜色，实现特效*/
+        a:hover{
+            color: orange;
+        }
+        /*鼠标按住未释放的状态*/
+        a:active{
+            color: green;
+        }
+        /*一访问的链接的颜色*/
+        a:visited{
+            color: aquamarine;
+        }
+
+        p{
+            font-size: 23px;
+            text-align: left;
+        }
+
+        /*text-shadow: 阴影颜色 水平偏移 垂直偏移【正-往上， 负-往下】 阴影半径*/
+        #price{
+            text-shadow: 10px 10px 10px green;
+        }
+    </style>
+</head>
+<body>
+
+<a href="#">
+    <img src="https://img0.baidu.com/it/u=2535140833,3357963432&fm=26&fmt=auto&gp=0.jpg" width="200" height="200" alt="">
+</a>
+<p>
+    <a href="#">生活，是很好玩的</a>
+</p>
+<p>
+    <a href="">作者：汪曾祺</a>
+</p>
+<p id="price">
+    ¥55
+</p>
+
+
+</body>
+</html>
