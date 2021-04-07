@@ -1,0 +1,40 @@
+#nav{
+    width: 300px;
+    background: gray;
+}
+
+
+.title{
+    font-size: 18px;
+    font-weight: bold;
+    text-indent: 1em;
+    line-height: 35px;
+    /*
+    IDE errors
+    background: red url("../CSSlearning/lesson02/images/shortcut_001.png") 300cm 300cm no-repeat;
+     */
+}
+/*
+list-style:
+none 去掉原点
+circle 空心圆
+decimal 数字
+squre 正方形
+*/
+
+ul li{
+    line-height: 30px;
+    list-style: none;/*可以是none， 列表默认为是实心圆， circle是空心圆，也可以是square, decimal*/
+    text-indent: 1em;
+    background: gray;
+}
+
+a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;
+}
+a:hover{
+    color: orange;
+    text-decoration: underline;
+}
