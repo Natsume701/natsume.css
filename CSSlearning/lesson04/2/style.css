@@ -4,6 +4,7 @@ div{
 }
 #father{
     border: 1px #000 solid;
+    overflow: hidden;/*尽管没有设定高宽，但是根绝后面的内容元素决定，都存在标准文档流内*/
 }
 .layer01{
     border: 1px #F00 dashed;
