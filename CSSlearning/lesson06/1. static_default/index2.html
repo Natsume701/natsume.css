@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practice</title>
+    <style>
+        div{
+            border: 2px solid #FF0000;
+            height: 300px;
+            width: 300px;
+            margin: 0 auto; /*使框居中*/
+            padding: 0;
+        }
+        a{
+            height: 100px;
+            width: 100px;
+            text-decoration: none;
+            background: #ffd4d4;
+            line-height: 100px; /*保证文字一行*/
+            text-align: center; /*保证文字居中*/
+            /*在变成块元素*/
+            display: block;
+        }
+        a:hover{
+            background: aquamarine;
+        }
+        #second, #fourth{
+            position: relative;
+            left: 200px;
+            top: -100px;
+        }
+
+        #fifth{
+            position: relative;
+            left: 100px;
+            top: -300px;
+        }
+
+
+    </style>
+</head>
+<body>
+<div id="father">
+<a href="https://drrr.com" id="first">链接1</a>
+<a href="https://drrr.com" id="second">链接2</a>
+<a href="https://drrr.com" id="third">链接3</a>
+<a href="https://drrr.com" id="fourth">链接4</a>
+<a href="https://drrr.com" id="fifth">链接5</a>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+#content{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 25px; /*较常见的 字体大小和行高*/
+    border: 1px solid #F7CE68;
+}
+ul, li{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+#content ul{
+    position: relative;
+
+ }
+.tipText,tipBg{
+    position: absolute;
+    width: 380px;
+    height: 25px;
+    top: 216px;
+}
+.tipText{
+    color: white;
+    /*z-index: 999; /*最低是0， 数字越大，层级越高,
+    所以一般设置一个很大的值就可以； */
+}
+.tipBg{
+    background: #000;
+    opacity: 50;/*背景透明度 所有浏览器都支持*/
+    /*filter: alpha(opacity=50); 以前的浏览器支持filter*/
+}
